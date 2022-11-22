@@ -116,5 +116,18 @@ products.
 * Communication with India branch (in English) for cooperation and job distribution for both Wuhan & India branch.
 
 
-## Rust Developer
+## Rust Developer (星际无限/神算云科技)2020.9 - 2022.11
 ### Abstract
+I'm the only rust developer in this company, and involved with anything related to system programming including:
+1. Crypto mining software optimization (mainly).
+2. Bug fixing and stability improvement for the mining operation.
+3. Developing a crypto wallet which interfaces with the hardware.
+
+
+### Technical Details
+The optimized version of the mining software takes advantage of:
+1. Implementing a better implemented zk-snark scheme,
+2. Offloading some of the highly parallelized tasks to the GPU,
+3. Take advantage of the hardware's topology by having a better CPU affinity setup, and
+4. Use multi-threaded computation for CPU tasks to make use of the server CPUs as much as possible.
+
