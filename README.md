@@ -21,32 +21,27 @@ Email: `blackshop.s.bossss@gmail.com`
 * Some encounter of GPU programming, `CUDA` specifically, from a crypto mining project.
 * I'm also a fast learner of new technologies.
 
-# Projects involved
+# Recent Projects involved
 
-## Rust Projects
 
-### A Proprietary Fork for the Filecoin Node
+## A Proprietary Fork for the Filecoin Node
 [lotus](https://github.com/filecoin-project/lotus) is the officially implemented node for filecoin with a sub-optimal mining efficiency. And I forked 
 it's rust library to have some of my own optimizations to provide a proprietary grade mining service for the clients of my employer. My own 
 implementation of lotus has a clear advantage on both time and memory space usage, especially when it comes to the execution time of the zk-snark 
 proving algorithm of filecoin.
 
-### Personal Contract Project
+## Personal Contract Project
 An proprietary system for automatic plant watering, running rust code on ARM linux, communicating with the server with the `MQTT` 
 protocol. This projcet involves interacting with an `MQTT` C library, since we don't have a matured one in the rust eco-system yet. It basically 
 receives watering schedule or one-shot operation from the server and takes action.
 
-###  Hobby Project (Almost finished)
+##  Hobby Project (Almost finished)
 [https://github.com/Krysme/greater-fire](https://github.com/Krysme/greater-fire)
 
 A re-write attempt for [trojan](https://github.com/trojan-gfw/trojan). With rust's `async & await`, I believe that the implementation of trojan can be 
 simplified in a great scale. The original `trojan` is implemented in C++ with `boost::asio`.Since C++ does not have `coroutines` yet (at least not 
 before C++ 20 gets widely adopted), it has to be implemented with callbacks and state-machines. And I believe it is possible to be re-written in rust 
 in less than 1000 lines of code. Through this project I'm more familiar with the new `async-await` feature.
-
-## C++ Projects
-
-
   
 
 
