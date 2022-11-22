@@ -6,14 +6,6 @@ Education: University of Regina, 2010 - 2013 (Electronic Engineering) (dropped o
 
 Github: https://github.com/Krysme
 
-# Contact Info
-
-Cell: `15072869578`
-
-Email: `blackshop.s.bossss@gmail.com`
-
-
-
 
 # Skill Set: 
 * Experience with Rust , C++, and some light experience with wonderful languages like Clojure, Typescript etc.
