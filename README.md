@@ -10,16 +10,32 @@ Github: https://github.com/Krysme
 
 Cell: `15072869578`
 
-Email: `332407470@qq.com`
-
-Matrix Account: `@yangdonglin:www.yangdonglin2020.xyz`
+Email: `blackshop.s.bossss@gmail.com`
 
 
 
 
+# Skill Set: 
+Experience with Rust , C++, and some light experience with wonderful languages like Clojure, Typescript etc.
+Familiarity with the GNU/Linux Operating System (I use Arch for my own desktop).
+Some encounter of GPU programming, `CUDA` specifically, from a crypto mining project.
+I'm also a fast learner of new technologies.
 
-# Skill Set
-## Experience with Rust 
+# Projects involved
+
+## Rust Projects
+
+### A Proprietary Fork for the Filecoin Node
+[lotus](https://github.com/filecoin-project/lotus) is the officially implemented node for filecoin with a sub-optimal mining efficiency. And I forked 
+it's rust library to have some of my own optimizations to provide a proprietary grade mining service for the clients of my employer. My own 
+implementation of lotus has a clear advantage on both time and memory space usage, especially when it comes to the execution time of the zk-snark 
+proving algorithm of filecoin.
+
+### Personal Contract Project
+An proprietary system for automatic plant watering, running rust code on ARM linux, communicating with the server with the `MQTT` 
+protocol. This projcet involves interacting with an `MQTT` C library, since we don't have a matured one in the rust eco-system yet. It basically 
+receives watering schedule or one-shot operation from the server and takes action.
+
 ###  Hobby Project (Almost finished)
 [https://github.com/Krysme/greater-fire](https://github.com/Krysme/greater-fire)
 
@@ -28,32 +44,16 @@ simplified in a great scale. The original `trojan` is implemented in C++ with `b
 before C++ 20 gets widely adopted), it has to be implemented with callbacks and state-machines. And I believe it is possible to be re-written in rust 
 in less than 1000 lines of code. Through this project I'm more familiar with the new `async-await` feature.
 
+## C++ Projects
+
 
   
-### Personal Contract Project
-An proprietary system for automatic plant watering, running rust code on ARM linux, communicating with the server with the `MQTT` 
-protocol. This projcet involves interacting with an `MQTT` C library, since we don't have a matured one in the rust eco-system yet. It basically 
-receives watering schedule or one-shot operation from the server and takes action.
 
 
-### Misc
-And also, I've answered some `知乎` questions， and here are the link of answers which might reflect some of my understanding of `rust` and `C++`.
+# Misc
+Also, I've answered some `知乎` questions， and here are the link of answers which might reflect some of my understanding of `rust` and `C++`.
 
 [知乎](https://www.zhihu.com/people/krys-1998/answers)
-
-
-## Understanding of Blockchain/DLT(Distributed Ledger Tech)
-
-### How I get to understand blockchain
-* I'm a follower of `Andreas M. Antonopoulos` on youtube
-* I'm currently learning from `MIT open courseware` on 
-[this playlist](https://www.youtube.com/watch?v=IJquEYhiq_U&list=PLUl4u3cNGP61KHzhg3JIJdK08JLSlcLId)
-* I have also briefly read the white paper of `Swirlds's Hashgraph` and `Maidsafe's Parsec`,
-because I believe these new consensus mechanisms (which achieves ABFT) with better efficiency might 
-resolve the scalability issues that currently bitcoin (or other blockchain based currencies) faces.
-
-
-
 
 
 
@@ -87,7 +87,7 @@ our manufacturing bussiness clients monitor and improve the efficiency of their 
 
 ### Technical Details
 The software are designed to have a client - server architecture. The client is built with `Qt` and `boost`, and we have a server written in 
-`javascript` in `node.js` with `express`.
+`javascript` with the `node.js` runtime.
 
 
 ### Job Description
@@ -97,7 +97,7 @@ The software are designed to have a client - server architecture. The client is 
 * Team management and leadership
 
 
-## Principal Engineer 2017.11 - Now ([STAr Technologies(Wuhan)](http://www.star-quest.com))
+## Principal Engineer 2017.11 - 2020.5 ([STAr Technologies(Wuhan)](http://www.star-quest.com))
 ### Abstract
 STAr Technologies develops semi-conductor testing solutions and probe cards, and the department I lead is in charge of the `Sagittarius` product 
 series. [This link](http://www.star-quest.com/products01_a.php?mode=&xs_id=001&class_sn=152) demostrates detailed information about this series of
@@ -116,3 +116,5 @@ products.
 * Communication with India branch (in English) for cooperation and job distribution for both Wuhan & India branch.
 
 
+## Rust Developer
+### Abstract
