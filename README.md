@@ -16,10 +16,10 @@ Email: `blackshop.s.bossss@gmail.com`
 
 
 # Skill Set: 
-Experience with Rust , C++, and some light experience with wonderful languages like Clojure, Typescript etc.
-Familiarity with the GNU/Linux Operating System (I use Arch for my own desktop).
-Some encounter of GPU programming, `CUDA` specifically, from a crypto mining project.
-I'm also a fast learner of new technologies.
+* Experience with Rust , C++, and some light experience with wonderful languages like Clojure, Typescript etc.
+* Familiarity with the GNU/Linux Operating System (I use Arch for my own desktop).
+* Some encounter of GPU programming, `CUDA` specifically, from a crypto mining project.
+* I'm also a fast learner of new technologies.
 
 # Projects involved
 
