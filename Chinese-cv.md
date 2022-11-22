@@ -1,28 +1,25 @@
-# Personal Info
+# 个人信息
 
-Name: Donglin Yang (杨东霖）
+姓名: 杨东霖
 
-Education: University of Regina, 2010 - 2013 (Electronic Engineering) (dropped out)
+教育: University of Regina, 2010 - 2013 (Electronic Engineering) (dropped out)
 
 Github: https://github.com/Krysme
 
 
-# Skill Set: 
-* Experience with Rust , C++, and some light experience with wonderful languages like Clojure, Typescript etc.
-* Familiarity with the GNU/Linux Operating System (I use Arch for my own desktop).
-* Some encounter of GPU programming, `CUDA` specifically, from a crypto mining project.
-* I'm also a fast learner of new technologies.
+# 职业技能
+* 熟练使用Rust和C++，并且对一些优秀的其它编程语言有所涉猎，比如Clojure, typescript 等等。
+* 对GNU/Linux非常熟悉。
+* 从一些加密货币挖矿项目中熟悉了cuda和通用GPU编程。
+* 非常快速的掌握行业新知识。
 
-# Recent Projects involved
+# 近期参与的项目
 
 
-## A Proprietary Fork for the Filecoin Node
-[lotus](https://github.com/filecoin-project/lotus) is the official node implementation for filecoin with a sub-optimal mining efficiency. So I forked 
-it's rust library to have some of my own optimizations to provide a proprietary grade mining service for the clients of my employer. My own 
-implementation of lotus has a clear advantage on both time and memory usage, especially when it comes to the execution time of the zk-snark proving 
-algorithm of filecoin.
+## Filecoin 节点的二次开发
+Filecoin区块链的主网节点 [lotus](https://github.com/filecoin-project/lotus)是由Filecoin创办方实现的挖矿软件，其性能并没有达到理论的极限，有优化空间。我们把它fork下来并且进行了二次开发用来给公司客户使用。我们自己的内部实现在速度上和内存空间消耗上，与开源版本相比，有非常明显的优势，尤其是在zk-snark的证明流程的算法优化上。
 
-## Personal Contract Project
+## 个人外包项目
 An proprietary system for automatic plant watering, running rust code on ARM linux, communicating with the server with the `MQTT` 
 protocol. This projcet involves interacting with an `MQTT` C library, since we don't have a matured one in the rust eco-system yet. It basically 
 receives watering schedule or one-shot operation from the server and takes action.
