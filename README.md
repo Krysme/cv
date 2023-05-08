@@ -118,3 +118,21 @@ The optimized version of the mining software takes advantage of:
 3. Take advantage of the hardware's topology by having a better CPU affinity setup, and
 4. Use multi-threaded computation for CPU tasks to make use of the server CPUs as much as possible.
 
+
+## Rust Developer (北醌云超算) 2022.12 - now
+### Abstract
+I'm in charge of a remote desktop project for client to operate on the cloud computers.
+Rsponsibilities including:
+1. The backend implementation of the software.
+2. Optimization for a lower latency and less CPU/Memory usage.
+3. Find inspirations by investigating similar open source solutions (like RustDesk).
+
+
+### Technical Details
+This project takes the advantage of WebRTC to stream video feed from the cloud to the client side
+in real time. and perform mouse/keyboard operations sent by the user.
+The backend is written in rust mainly, with some FFI with C libraries like `ffmpeg`.
+The frontend is an `electron` based app for current version. A more performant rendering schem (like directly
+render image buffers with `wgpu`) might be used in future releases.
+
+

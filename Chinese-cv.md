@@ -2,19 +2,18 @@
 
 姓名: 杨东霖
 
-教育: University of Regina, 2010 - 2013 (Electronic Engineering) (dropped out)
+教育: University of Regina, 2010 - 2013 (Electronic Engineering)
 
 Github: https://github.com/Krysme
-
 
 # 职业技能
 * 熟练使用Rust和C++，并且对一些优秀的其它编程语言有所涉猎，比如Clojure, typescript 等等。
 * 对GNU/Linux非常熟悉。
 * 从一些加密货币挖矿项目中熟悉了cuda和通用GPU编程。
 * 非常快速的掌握行业新知识。
+* 对zk-snark有一定的理解。
 
 # 近期参与的项目
-
 
 ## Filecoin 节点的二次开发
 Filecoin区块链的主网节点 [lotus](https://github.com/filecoin-project/lotus)是由Filecoin创办方实现的挖矿软件，其性能并没有达到理论的极限，有优化空间。我们把它fork下来并且进行了二次开发用来给公司客户使用。我们自己的内部实现在速度上和内存空间消耗上，与开源版本相比，有非常明显的优势，尤其是在zk-snark的证明流程的算法优化上。
@@ -104,3 +103,12 @@ STAr Technologies 是一个总部在台湾的半导体测试解决方案提供�
 3. 利用CPU的拓扑结构来调整任务的硬件绑定，从而达到更大限度的缓存利用。
 4. 尽量利用服务器的多核CPU进行并行运算，加速任务。
 
+## Rust开发（北醌云科技）2022.12 - 2023.5
+
+负责远程桌面控制APP的后端，用来控制云主机桌面。
+
+### 技术细节
+远程桌面主要用到：
+1. ffmpeg 的rust/C FFI, 硬件/软件H.264编码。
+2. WebRTC协议。
+3. X11相关桌面控制，包括程序控制鼠标，键盘操作等，剪切板同步。
